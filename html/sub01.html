@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>CỔNG THÔNG TIN ĐIỆN TỬ TÒA ÁN NHÂN DÂN TỐI CAO</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+	<!-- JS -->
+	<script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			/* $('.loading-wrap').fadeOut(1000); */
+
+		});
+	</script>
+</head>
+<body class="d-flex"><!-- 201215 추가 -->
+	<!-- wrap -->
+	<div id="wrap" class="sub d-flex flex-column">
+		<!-- skip nav -->
+		<div id="skipNav">
+			<a href="#content">본문 바로가기</a>
+			<a href="#navi1">전체 메뉴 바로가기</a>
+		</div>
+		<!-- header -->
+		<div id="header">
+			<div class="inr navbar navbar-expand-lg">
+				<h1 class="logo">
+					<a href="./index.html"><span>CỔNG THÔNG TIN ĐIỆN TỬ TÒA ÁN NHÂN DÂN TỐI CAO</span></a>
+				</h1>
+				<div class="menu-language ml-auto">
+	                <ul>
+	                    <li id="langVi" class="active"><a href="/incident-information-find?lang=vi" title="Vietnamese language">VIET</a></li>
+	                    <li id="langKo"><a href="/incident-information-find?lang=ko" title="Korean language L">KOR</a></li>
+	                </ul>
+	            </div>
+				<button class="navbar-toggler btn-open" id="menuAll" type="button">메뉴 보기</button>
+				<div class="gnb" id="navi">
+					<ul class="navbar-nav ml-auto">
+						<li class="active"><a href="./sub01.html" id="navi1">menu1</a></li><!-- 현재 활성화 메뉴 : active class 사용 -->
+						<li><a href="./sub02.html">menu2</a></li>
+					</ul>
+					<button type="button" class="btn-close" id="menuClose">메뉴 닫기</button>
+				</div>
+			</div>
+		</div>
+		<!-- //header -->
+		<div id="content" class="container mt-auto">
+		   <p class="txt-notice">Thông tin vụ việc được cung cấp trên trang web này không có hiệu lực pháp lý,<br>vì vậy vui lòng chỉ sử dụng như tài liệu tham khảo.</p>
+		   <div class="search-area">
+		   		<ul>
+		   			<li class="tit"><span>Search</span></li>
+		   			<li>
+		   				<input type="text" class="form-control" placeholder="Input your Search Code." value="10101-00000-4GN9E">
+		   				<input type="submit" class="btn-search" data-toggle="modal" data-target="#exampleModalCenter" value="Search">
+		   			</li>
+		   		</ul>
+		   		<div class="custom-tooltip-area">
+		   			<a href="#" class="txt-tooltip" id="tooltip"><span>Infomation</span></a>
+		   			<div class="content-tooltip">
+		   				<P class="tit">Infomation</P>
+		   				<div class="cont">
+		   					<p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus velit sem. Donec non dictum orci. Nulla finibus tempor ante, a tristique nisi maximus eu. Nulla facilisi.</p>
+		   					<p>- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus velit sem. Donec non dictum orci. Nulla finibus tempor ante, a tristique nisi maximus eu. Nulla facilisi.</p>
+		   				</div>
+		   				<button type="button" class="btn-close" id="tooltipClose">Close</button>
+		   			</div>
+		   		</div>
+		   </div>
+		</div>
+		<!-- footer -->
+		<div id="footer" class="mt-auto">
+			<div class="inr">
+				<ul>
+					<li class="mobile"><span class="tit">Mobile.</span><span>000.0000000</span></li>
+					<li class="email"><span class="tit">Email.</span><span>sample@toaan.gov.vn</span></li>
+					<li class="adress"><span class="tit">Address.</span><span>00 Ly Thuong Kiet, Hoan Kiem, Hanoi.</span></li>
+				</ul>
+			</div>
+			<p class="copyright">(C) 2020 Supreme People's Court of the Socialist Republic of Vietnam.</p>
+		</div>
+		<!-- //footer -->
+	</div>
+	<!-- //wrap -->
+	<div class="dimm" id="dimm"></div>
+	<!-- Alert Popup -->
+	<div class="modal fade bd-example-modal-sm alert" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+	    <div class="modal-content">
+	      <div class="modal-body">
+	        <p class="tit">Alert</p>
+	        <p>Input Your Search Code.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn-close" data-dismiss="modal">Confirm</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- Alert Popup -->
+</body>
+</html>

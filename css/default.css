@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+*{box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; line-height:1}
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, button, select{margin: 0;padding: 0}
+html, body{height:100%}
+body{position:relative; font-size:15px; font-family:Tahoma, Arial, sans-serif; color:#222; margin:0; border:0; text-align:left; background:#fff; font-weight: normal; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale}
+article, aside, footer, header, nav, section{display: block}
+table{border-collapse: collapse}
+fieldset, img{border: none}
+input{vertical-align:middle}
+input:focus{outline: none}
+input[type="text"], input[type="password"]{-webkit-transition:all 0.2s; -ms-transition:all 0.2s; transition:all 0.2s}
+input[type="text"]:focus::-webkit-input-placeholder, input[type="password"]:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder{color:transparent}
+input[type="text"]:focus::-moz-placeholder, input[type="password"]:focus:-moz-placeholder, textarea:focus::-moz-input-placeholder{color:transparent}
+input[type="text"]:focus:-ms-input-placeholder, input[type="password"]:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder{color:transparent}
+input[type="text"]:focus::-ms-input-placeholder, input[type="password"]:focus::-ms-input-placeholder, textarea:focus::-ms-input-placeholder{color:transparent}
+label{vertical-align: middle}
+select{vertical-align:middle}
+select:focus{outline: none}
+textarea{vertical-align:middle}
+textarea:focus{outline:none}
+div, ul, form, fieldset, td, th, li, h1, h2, h3, h4, p{margin:0; padding:0}
+ul,li,ol,li,dl,dd,dt{list-style:none}
+legend,hr{position:absolute; left:-999px; width:0; height:0; font-size:0; visibility:hidden; z-index:-1}
+caption{margin:0; padding:0; width:0; height:0;  z-index:-1; font-size:0; line-height:0; visibility:hidden}
+hr{display:none}
+a{text-decoration:none; vertical-align:middle; -webkit-transition:all 0.2s; -ms-transition:all 0.2s; transition:all 0.2s}
+a:hover{text-decoration:none}
+a:focus{text-decoration:none}
+em{font-style:normal}
+strong{font-weight: 500}
+textarea{resize:none}
+html input[disabled]{background:#f7f9fb}
+h1, h2, h3, h4, h5, h6{font-weight: 500;letter-spacing: -1px}
+p{word-break: keep-all; letter-spacing: -0.5px}
+button{font-size:15px; font-family:Tahoma, Arial, sans-serif; cursor:pointer; vertical-align:middle; -webkit-transition:all 0.2s; -ms-transition:all 0.2s; transition:all 0.2s}
+button:focus{outline: none}
+button span{position:relative}
+input, select, textarea{font-size:15px; font-family:Tahoma, Arial, sans-serif}
+iframe{width:100%; border:0}
+::selection{background:#222; color:#fff}
+::-moz-selection{background:#222; color:#fff}

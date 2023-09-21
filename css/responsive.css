@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* 
+   Written by Jungmin Lee
+*/
+/* Extra small devices (landscape phones, 480px and up) */
+@media (min-width: 480px) { 
+    /* header */
+    #header .logo a{padding:10px 0 0 40px; background:url('../images/img_logo.png') no-repeat left center; background-size:30px}
+    #header .gnb a{font-size:16px}
+    #header .menu-language{display:block;}
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* header */
+    #header .logo a{padding:20px 0 0 63px; height:50px; font-size:13px; background-size:50px}
+    #header .gnb ul li{padding-top:45px}
+    #header .gnb a{font-size:22px}
+    /* index */
+    .tit-index{padding-top:140px; font-size:37px}
+    .menu-wrap .btn-index{height:70px; padding:24px 5px; font-size:20px}
+    .menu-wrap .btn-index > span::after{top:8px; height:9px}
+    .menu-wrap .btn-index:hover > span, .menu-wrap .btn-index:focus > span{padding-right:55px}
+    .menu-wrap .btn-index:hover > span::after, .menu-wrap .btn-index:focus > span::after{width:44px}
+    /* sub contents */
+    .txt-notice{font-size:24px; line-height: 40px}
+    .search-area ul li.tit{font-size:18px}
+    .btn-search{height:50px; line-height: 1.7}
+    #wrap .sub-content .container.search-result{padding-top:50px; padding-bottom:50px}
+    .sub-content .search-result ul li span{font-size:20px;}
+    .sub-content .search-result .btn-search{width:50%; max-width:280px; margin-left:auto; margin-right:auto}
+    .sub-content .search-result p{font-size:24px}
+    .sub-content .search-result p > span{line-height:1.5}
+    #wrap .sub-content .container.search-result.fixed-top ul li span{font-size:17px;}
+    #wrap .sub-content .container.search-result.fixed-top .btn-search{padding:40px 5px;}
+    #wrap .sub-content .container.search-result.fixed-top .btn-search > span{font-size:13.5px;}
+    .detail-wrap{text-align:right}
+    .detail-wrap > *{display:inline-block}
+    .detail-wrap > span{width:70%}
+    .select-wrap h3{float:left; padding-bottom:0 !important;}
+    .select-wrap .select-box{float:right}
+    .select-box select{width:auto; min-width:150px;}
+    /* form-control */
+    .form-control{height:50px; font-size:16px}
+    /* tab */
+    .tab-type1 .nav-link{padding:20px 1rem; font-size:16px}
+    /* button */
+    .btn-detail{display: inline-block; width:29%; margin-top:0}
+    /* error */
+    .error-area .btn-wrap button{display:inline-block; width:auto; min-width:220px}
+    .error-area .btn-wrap .btn-block+.btn-block{margin-top:0; margin-left:0}
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* index */
+    #wrap.index .container.menu-wrap{padding:0}
+    /* table */
+    .tbl-type1.table-row .table th, .tbl-type1.table-row .table td{display: table-cell}
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* header */
+    #header .inr::after{display: block; content:''; clear:both}
+    #header .logo a{padding:13px 0 0 52px; height:40px; font-size:16px; line-height:1; background-size:40px}
+    #header .gnb{position:absolute; top:38px; right:0; width:auto; height:auto; background:transparent}
+    #header .gnb ul{height:90px; margin:0; padding:0px 1rem 0 0; border-top:0}
+    #header .gnb ul li{padding-top:0; padding-left:10px}
+    #header .gnb a{padding:0 10px; font-size:14px; color:rgba(255, 255, 255, .6)}
+    #header .gnb a::after{bottom:-35px}
+    #header .btn-close{display:none}
+    /* footer */
+    #footer{padding:0 1rem}
+    #footer .inr{padding:27px 0}
+    #footer ul::after{display:block; clear:both; content:''}
+    #footer ul li{float:left; padding:0 15px}
+    #footer ul li::after{position:absolute; right:0; top:3px; width:1px; height:12px; background:rgba(255, 255, 255, .2); content:''}
+    #footer ul li:last-child::after{display:none}
+    /* index */
+    #wrap.index .container{padding-bottom:100px}
+    .tit-index{padding-top:200px; font-size:55px; background-size:auto}
+    .menu-wrap{padding:0}
+    .menu-wrap .btn-index{float:left; width:50%; height:100px; padding:42px 10px; border:0; border-radius:0; background:#232121}
+    .menu-wrap .btn-index + .btn-index{margin-top:0; border-left:1px solid rgba(255, 255, 255, .2)}
+    .menu-wrap .btn-index:hover > span, .menu-wrap .btn-index:focus > span{padding-right:200px}
+    .menu-wrap .btn-index > span::after{height:13px}
+    .menu-wrap .btn-index:hover > span::after, .menu-wrap .btn-index:focus > span::after{width:66px}
+    /* sub contents */
+    .txt-notice{font-size:30px; line-height: 42px}
+    .search-area ul{display:table; width:800px; margin:0 auto}
+    .search-area ul::after{display:block; clear:both; content: ''}
+    .search-area ul li{display:table-cell; width:80%}
+    .search-area ul li.tit{width:20%; padding-right:15px; text-align:right}
+    .search-area ul li .form-control{display: inline-block; width:-webkit-calc(100% - 209px); width:calc(100% - 209px)}
+    .search-area .btn-search{display: inline-block; width:200px; margin:0 0 0 4px}
+    .custom-tooltip-area{width:800px; margin:20px auto 0; text-align:right}
+    .custom-tooltip-area .txt-tooltip{padding-right:10px}
+    .detail-wrap{text-align:right}  
+    .detail-wrap > *{display: inline-block; width:auto}
+    .detail-wrap > span{font-size:14px}
+    #wrap .sub-content .container.search-result{padding-top:70px; padding-bottom:130px}
+    /*
+    .sub-content .search-result p{font-size:30px}
+    .sub-content .search-result .tit{display:inline-block}
+    */
+    .sub-content .search-result ul li{display:inline-block; margin:0 12px}
+    .sub-content .search-result ul li::after{position:absolute; right:-12px; top:50%; height:14px; width:1px; margin-top:-7px; background:rgba(255, 255, 255, .4); content:''}
+    .sub-content .search-result ul li:first-child{margin-left:0}
+    .sub-content .search-result ul li:last-child{margin-right:0}
+    .sub-content .search-result ul li:last-child::after{display:none}
+    .sub-content .search-result .btn-search{margin-top:20px}
+    #wrap .sub-content .container.search-result.fixed-top{height:90px;}
+    #wrap .sub-content .container.search-result.fixed-top ul{width:calc(100% - 180px); padding:32px 1rem}
+    #wrap .sub-content .container.search-result.fixed-top ul::after{display:block; clear:both; content:'';}
+    #wrap .sub-content .container.search-result.fixed-top ul li{float:left; width:auto;}
+    #wrap .sub-content .container.search-result.fixed-top .btn-search{width:180px; padding:23px 10px;}
+    #wrap .sub-content .container.search-result.fixed-top .btn-search > span{font-size:16px}
+    .sub-content .result-cont h3{padding:12px 0 20px 0; font-size:22px}
+    .sub-content .result-cont h4{font-size:18px}
+    /* #wrap.sub.detail{background-size:contain} */
+    .explain-wrap{padding:15px 30px; font-size:14px}
+    .explain-wrap p{padding-bottom:20px}
+    .select-box > *{font-size:14px}
+    .select-box select{height:40px;}
+    .select-box button, .select-box a{height:40px}
+    .custom-tooltip-area.active .content-tooltip{width:70%}
+    /* button */
+    .btn-top{width:70px; height:70px; background-size:12px}
+    .btn-detail{margin-top:0; margin-left:12px; padding:10px 30px; font-size:15px; background-size:auto}
+    /* tab */
+    .tab-type1{position:absolute; top:-60px; left:0; right:0; width:960px; margin:0 auto;}
+    .tab-type1 .nav-link{height:60px; padding:22px 1rem}
+    #wrap.sub .tab-content .container{padding-top:60px; padding-bottom:60px}
+    /* table */
+    .tbl-type1 .table td, .tbl-type1 .table th{padding:1rem; font-size:16px}
+    /* error */
+    .error-box{padding-top:210px; background-size:250px}
+    .error-box h2{font-size:40px}
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* header */
+    #header .inr{padding:.5rem 60px}
+    #header .gnb ul{padding:0px 60px 0 0}
+    #header .gnb ul li{padding-left:20px}
+    #header .gnb a{padding:0 10px; font-size:16px}
+    #header .gnb a::after{bottom:-34px}
+    /* footer */
+    #footer{padding:0 60px}
+    #footer .inr{padding:25px 0}
+    #footer ul li{padding:0 20px; font-size:15px}
+    #footer ul li .tit{background-position:left center}
+    #footer ul li.email .tit{background-position:left 5px}
+    #footer .copyright{font-size:14px}
+    /* index */
+    .tit-index{font-size:65px}
+    .menu-wrap .btn-index{font-size:25px}
+    /* sub contents */
+    .txt-notice > br{display: block}
+    .sub-content .search-result p{font-size:35px}
+    /* tab */
+    .tab-type1{width:1140px}
+    .tab-type1 .nav-link{font-size:18px}
+    /* button */
+    .btn-top{right:60px}
+ }
+ 
+ @media (min-width: 1900px) {
+    /* sub contents */
+    #wrap.sub.detail{background-size:cover}
+ }
